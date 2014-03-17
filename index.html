@@ -1,231 +1,233 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Replace the description, keywords and author content with those that suit your product/ service -->
-    <meta name="description" content="Bootstrap Product Launch Landing Page ">
-    <meta name="keywords" content="multi purpose, bootstrap, launch, coming soon, landing page">
-    <meta name="author" content="Joseph Wachira">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Launcht Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
 
-    <title>Launcht &middot; Product Launch Landing Page</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="assets/cust/css/cust.css" rel="stylesheet" media="screen">
+<body>
+	<div class="container">
+	
+		<h3 class="center alt"><strong>Launcht</strong> Documentation by <a href="https://twitter.com/josepwachira">@josepwachira</a> &#8212; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">Launcht</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 6th March, 2014<br>
+					By: Joseph W.<br>
+					Contact: <a href="https://twitter.com/josepwachira">@josepwachira</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://wrapbootstrap.com/user/eamdevelopers">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#psdFiles">PSD Files</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This theme has a responsive layout with five main sections.</p>
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-    <!-- Load this instead, on live site
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
+		<ol>
+			<li>
+				Navbar
+				<p>The Navbar section contains the logo area and the signin button. This section is fixed at the top of the page to highlight the branding and to prompt already invited users to signin.</p>
+			</li>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body id="home">
+			<li>
+				Jumbotron
+				<p>The jumbotron contains an intro followed by a row of three columns suitable for how-to steps or highlighting the top features. This section has a background image with an overlay gradient which is totally editable to suit your color scheme.</p>
+			</li>
 
-    <!-- Navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container page-scroll">
-        <a class="main-logo navbar-left" href="#home">Launcht</a>
-        <p class="navbar-text navbar-right">
-          <span class="hidden-xs">
-            Already invited? <a class="btn btn-default" href="#">Sign in</a>
-          </span>
-          <a href="#" class="btn btn-default btn-lg visible-xs">
-            <i class="fa fa-sign-in"></i>
-          </a>
-        </p>
-      </div>
-    </div> <!-- End navbar -->
+			<li>
+				Features
+				<p>The features section contains a setion header followed by two rows with two columns each suitable for displaying the features of your product/app/service.</p>
+			</li>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-      <div class="container">
+			<li>
+				Signup
+				<p>The signup section contains a section header and a panel containing the signup form. This section rounds up as the main call to action visitors should perform on your site.</p>
+			</li>
 
-        <!-- Intro -->
-        <div class="row">
-          <div class="col-sm-10 col-sm-offset-1">
-            <h1>Reach out to the world</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet velit condimentum, viverra sapien eget, tempus ante. </p>
-          </div>
-        </div> <!-- End intro -->
+			<li>
+				Footer
+				<p>The footer lists the ways to connect and contact you as well as include information about the individual(s) behind the product/app/service.</p>
+			</li>
+		</ol> 
 
-        <!-- Assets (How to's) -->
-        <div class="row assets hidden-xs">
-          <div class="col-sm-4">
-            <div class="asset">
-              <span class="fa fa-picture-o asset-ico-a"></span>
-              <h3>Get the template</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="asset">
-              <span class="fa fa-file-text asset-ico-b"></span>
-              <h3>Fill copy</h3>
-              <p>Duis ut mollis lacus. Mauris ultrices sollicitudin lectus non semper.</p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="asset">
-              <span class="fa fa-rocket asset-ico-c"></span>
-              <h3>Launch</h3>
-              <p>Maecenas ornare nisl lacus, eu mattis lectus vulputate quis.</p>
-            </div>
-          </div>
-        </div> <!-- End assets -->
+		<p>This theme is fully responsive and utilizes a mobile first approach layout.</p>
 
-        <!-- Scroll-to-cta prompt -->
-        <div class="row">
-          <p class="page-scroll scroll-to-cta">
-            <a href="#signup">
-              Get early VIP invite <i class="fa fa-angle-double-down fa-lg animated"></i>
-            </a>
-          </p>           
-        </div> <!-- End scroll-to-cta prompt -->
+		<hr>
 
-      </div>
-    </div> <!-- End Jumbotron -->
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
 
-    <!-- Main Content -->
-    <div class="container">
+		<p>I'm using three CSS files in this theme. The first one is a Bootstrap file. It contains global CSS settings, fundamental HTML elements styles, and an advanced grid system. Keep in mind, that these values might be overridden somewhere else in the other CSS files.</p> 
 
-      <!-- Features -->
-      <div class="features">
+		<p>The second file contains all of the specific custom stylings for the page. The file is separated into sections using:</p>  
 
-        <!-- Section header -->
-        <div class="row section-header">
-          <div class="col-sm-10 col-sm-offset-1">
-            <h1>What you can expect of Launcht</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet velit condimentum, viverra sapien eget, tempus ante. </p>
-          </div>
-        </div> <!-- End section header -->
+<pre>	
+	/* Defaults
+	================================= */
 
-        <!-- First row of features -->
-        <div class="row">
-          <div class="col-sm-6">
-            <h3><i class="fa fa-money"></i> Save time &amp; money</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id enim suscipit, dignissim nisl a, bibendum velit. Donec quis nulla mattis turpis rhoncus malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-          </div>
-          <div class="col-sm-6">
-            <h3><i class="fa fa-comments-o"></i> Generate the right buzz</h3>
-            <p>Sed pharetra laoreet dolor, imperdiet bibendum erat lobortis ut. Sed ut orci ac tellus volutpat rutrum consequat sit amet nisi. Ut aliquam eu felis a ultricies. Aliquam congue placerat scelerisque. Proin vel nibh a leo auctor sagittis.</p>
-          </div>
-        </div> <!-- End first row of features -->
+	some code
 
-        <!-- Second row of features -->
-        <div class="row">
-          <div class="col-sm-6">
-            <h3><i class="fa fa-users"></i> Attract qualified leads</h3>
-            <p>Proin vel nibh a leo auctor sagittis. Suspendisse vitae urna nec leo fermentum rutrum. Maecenas id rutrum neque. Maecenas pellentesque vitae massa nec consectetur. Morbi at ultrices ante, nec sodales enim.</p>
-          </div>
-          <div class="col-sm-6">
-            <h3><i class="fa fa-dot-circle-o"></i> Have a single purpose</h3>
-            <p>Cras pulvinar vel lacus vehicula aliquet. Vivamus vitae nibh justo. Mauris in nisi non nisl feugiat luctus ut et massa. Sed condimentum turpis quis bibendum blandit. Vestibulum ut gravida risus. </p>
-          </div>
-        </div> <!-- End second row of benefits --> 
+	/* Navbar
+	================================= */
+	
+	some code
+	
+	/* Jumbotron
+	================================= */
+	
+	some code
+	
+	/* Features
+	================================= */
+	
+	some code
+	
+	/* Sign up
+	================================= */
 
-      </div> <!-- End benefits -->
+	some code
 
-      <!-- Signup area (main call-to-action) -->
-      <div id="signup">
+	/* Footer
+	================================= */
 
-        <!-- Section header -->
-        <div class="row section-header">
-          <div class="col-sm-10 col-sm-offset-1">
-            <h1>Want an effective launch?</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet velit condimentum, viverra sapien eget, tempus ante. </p>
-          </div>
-        </div> <!-- End section header -->
+	some code
 
-        <!-- Signup panel area -->
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
+	/* Media Queries
+	================================= */
 
-            <!-- Panel -->
-            <div class="panel panel-default">
-              <div class="row panel-body">
-                <div class="col-xs-10 col-xs-offset-1">
+	some code
 
-                  <!-- Signup form -->
-                  <form class="form-inline text-center" role="form">
-                    <p>Sign up for early VIP invite:</p>
-                    <div class="row">
-                      <div class="form-group col-sm-7">
-                        <label class="sr-only" for="formInputEmail">Email address</label>
-                        <input type="email" class="form-control input-lg" id="formInputEmail" placeholder="Enter email" required>
-                      </div>
-                      <div class="col-sm-5">
-                        <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
-                      </div>
-                      
-                    </div>
-                    <p class="no-spam">*We will never share, rent, or sell your email address to anyone, ever.</p>
-                  </form> <!-- End signup form -->
+	/* Color Scheme : cornflowerblue
+	================================= */
 
-                </div>
-              </div>
-            </div> <!-- End panel -->
+	some code
+</pre>
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
 
-          </div>
-        </div> <!-- End signup panel area -->
+		<p>As you can see, the last CSS section overides some values to define a new color scheme. If you would like to add a new color scheme, find the following section in the style sheet and change the colors:</p>
 
-      </div> <!-- End signup area -->
+		<img src="assets/images/csscolorscheme.png" alt="HTML Structure" />
 
-      <!-- Footer -->
-      <div class="footer"> 
-        <div class="row">
-          <div class="col-sm-5">
-            <img class="footer-logo" src="assets/cust/img/logos/footer-logo.png" alt="logo">
-            <p>
-              We want to explore. We're curious people. Look back over history, people have put their lives at stake to go out and explore... We believe in what we're doing. Now it's time to go.
-            </p>
-            <p class="copyright">&copy; 2014 Launcht</p>
-          </div>
-          <div class="col-sm-3 col-sm-offset-1 col-md-offset-1">
-            <ul class="link-list">
-              <li class="heading">Conect with us</li>
-              <li><a href="#"><i class="fa fa-tumblr-square fa-lg"></i> Blog</a></li>
-              <li><a href="#"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
-              <li><a href="#"><i class="fa fa-facebook-square fa-lg"></i> Facebook</a></li>
-            </ul>       
-          </div>
-          <div class="col-sm-3">
-            <ul class="link-list">
-              <li class="heading">Get in touch</li>
-              <li><a href="mailto:hi@copylaunch.me">hi@launcht.template</a></li>
-              <li>1(888)555-1234</li>
-            </ul>  
-          </div>
-        </div>
-      </div> <!-- End footer -->
+		<p>I'd recommend you copy and paste this code into a new css section below the "cornflower blue" section. You can then give it your preferred name like this:</p>
 
-    </div> <!-- End main content -->
+<pre>
+	/* Color Scheme : name-of-your-color-scheme
+	================================= */
 
-    <!-- JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    
-    <!-- jQuery -->
-    <script src="assets/cust/js/jquery.min.js"></script>
-    <!-- Load this instead on live site <script src="http://code.jquery.com/jquery.min.js"></script> -->
+	some code
+</pre>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+		<p>Make sure to change the class names in your new color scheme section. Like this:</p>
 
-    <!-- jQuery Easing -->
-    <script src="assets/cust/js/jquery.easing.min.js"></script>
-    <!-- Load this instead on live site 
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->
+<pre>
+	/* Color Scheme : name-of-your-color-scheme
+	================================= */
 
-    <!-- Custom JavaScript -->
-    <script src="assets/cust/js/cust.js"></script>
-  </body>
+	.cornflowerblue &rarr; .name-of-your-color-scheme
+</pre>
+
+		<p>After changing the colors to your satisfaction, head over to <code>index.html</code> and locate this code (body tag) just below the head section</p>
+
+<pre>
+	body id="home"
+</pre>
+
+		<p>Now add a "<code>name-of-your-color-scheme</code>" class to the body tag. It should now look loke this:</p>
+
+<pre>
+	body id="home" class="name-of-your-color-scheme"
+</pre>
+
+		<p>After reloading the <code>index.html</code>, your site should reflect your new color scheme. Congrats :)</p>
+
+		<p>Finally, the third CSS file contains the Font Awesome (v4.0.3) styles. This file loads the icon font used in the how-to steps area of the Jumbotron as well as the features and footer sections of the landing page. This file does not require any editing.</p>
+
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports four main Javascript files.</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>Bootstrap core JavaScript</li>
+			<li>jQuery Easing</li>
+			<li>My Custom JavaScript</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li>The Bootstrap core JavaScript brings Bootstrap's components to life with a number of custom jQuery plugins.</li>
+			<li>The jQuery Easing plugin gives advanced easing options.</li>
+			<li>Finally, the custom script adds the nice scrolling effect and also makes the navbar collapse on scroll.</li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="psdFiles"><strong>D) PSD Files</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've included two psds with this theme:</p>
+		
+			<ol>
+				<li>The main psd</li>
+				<li>The cornflowerblue psd</li>
+			</ol>
+		
+		<p>The psd files are fully layered to make it easy to edit without any difficulties</p> 
+		
+		<hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, fonts or other files as listed.
+		
+		<ul>
+			<li>Background image by <a href="http://picjumbo.com/writing-with-a-graphic-pen/">Picjumbo</a></li>
+			<li>Frontend Framework: <a href="http://getbootstrap.com/">Bootstrap</a></li>
+			<li>Font used in the PSD: <a href="https://www.google.com/fonts/specimen/Lato">Lato</a></li>
+			<li>Icon Font: <a href="http://fontawesome.io">Font Awesome</a></li>
+		</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to my themes on WrapBootstrap, you might consider visiting my <a href="http://wrapbootstrap.com/user/eamdevelopers">user page</a> and asking your question through the contact form.</p> 
+		
+		<p class="append-bottom alt large">Joseph W.</p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
 </html>
